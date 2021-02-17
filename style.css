@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	font-family: Poppins !important;
+
+}
+
+/*navbar a style*/
+nav{
+	padding: 0!important;
+}
+.nav-link{
+	font-family: Poppins;
+	font-size: 14px;
+}
+
+/*header section*/
+.header{
+	background-image: url('images/header.png');
+	min-height: 600px;
+	background-repeat: no-repeat;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: Poppins;
+	color: #22262A;
+}
+.btn-primary{
+	background-color: #22262A !important;
+	border: #22262A !important;
+	font-size: 12px;
+}
+.gallery> div{
+	margin: 0;
+	padding: 0;
+}
+
+.girl1{
+	background: url('images/girl1.png');
+	min-height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.girl2{
+	background: url('images/girl2.png');
+	min-height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.boy{
+	background: url('images/boy.png');
+	min-height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	width: 90% !important;
+	
+}
+.boy2{
+	background: url('images/MaskGroup.png');
+	min-height: 640px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	margin: 0;
+	padding: 0!important;
+}
+
+#boy:hover .box{
+display: block;
+}
+.shop{
+	background-image: url('images/19.png');
+	min-height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-transform: uppercase;
+	font-family: Poppins;
+	color: #22262A;
+}
+
+.box{
+	background-color: rgba(44, 62, 80,0.6);
+	 text-align: center;
+	 margin:auto;
+	 min-height: 300px; 
+	 display: none;
+}
+.boy:hover .box{
+	display: block;
+}
+
+.boxx{
+	background-color: rgba(44, 62, 80,0.6);
+	min-height: 300px;
+	display: none;
+}
+.boxx>p,
+.boy-hover>p{
+	padding: 6px 20px;
+	 background-color: white; 
+	 bottom: 20px;
+	  right: 15px;
+	  cursor: pointer;
+}
+.girl1:hover .boxx {
+	display: block;
+}
+.girl2:hover .boxx {
+	display: block;
+}
+
+.boy-hover{
+	background-color: rgba(44, 62, 80,0.6);
+	min-height: 100%;
+	width: 100%;
+	display: none;
+}
+.boy2:hover .boy-hover {
+	display: block;
+}
+

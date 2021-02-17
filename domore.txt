@@ -1,0 +1,6 @@
+courser settings
+unwanted code remove
+comments add
+readble
+hover effect
+responsive
